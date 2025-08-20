@@ -38,8 +38,8 @@ export default function Contact() {
     {
       name: "Email",
       icon: Mail,
-      url: "mailto:ahaan.parmar@example.com",
-      description: "Direct communication for opportunities and collaboration"
+      url: "mailto:ahaan.parmar6@gmail.com",
+      description: "Direct communication for opportunities and collaboration [ahaanparmar6@gmail.com]"
     }
   ]
 
