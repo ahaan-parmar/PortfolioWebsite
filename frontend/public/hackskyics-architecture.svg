@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#0f0f23"/>
+  
+  <!-- Host Machine Container -->
+  <rect x="50" y="50" width="700" height="500" fill="none" stroke="#3b82f6" stroke-width="3" rx="10"/>
+  <text x="400" y="80" text-anchor="middle" fill="#3b82f6" font-family="monospace" font-size="16" font-weight="bold">
+    HOST MACHINE (Demo Laptop)
+  </text>
+  
+  <!-- Attack VM -->
+  <rect x="80" y="120" width="150" height="120" fill="#dc2626" stroke="#ffffff" stroke-width="2" rx="8"/>
+  <text x="155" y="140" text-anchor="middle" fill="#ffffff" font-family="monospace" font-size="14" font-weight="bold">ATTACK VM</text>
+  <text x="155" y="155" text-anchor="middle" fill="#ffffff" font-family="monospace" font-size="12">(Kali Linux)</text>
+  <text x="155" y="175" text-anchor="middle" fill="#ffffff" font-family="monospace" font-size="10">• Metasploit</text>
+  <text x="155" y="190" text-anchor="middle" fill="#ffffff" font-family="monospace" font-size="10">• Custom Tools</text>
+  <text x="155" y="205" text-anchor="middle" fill="#ffffff" font-family="monospace" font-size="10">• Attack Scripts</text>
+  <text x="155" y="220" text-anchor="middle" fill="#ffffff" font-family="monospace" font-size="10">• Network Scan</text>
+  <text x="155" y="240" text-anchor="middle" fill="#ffffff" font-family="monospace" font-size="10">• Modbus Exploitation</text>
+  
+  <!-- ICS VM -->
+  <rect x="250" y="120" width="150" height="120" fill="#059669" stroke="#ffffff" stroke-width="2" rx="8"/>
+  <text x="325" y="140" text-anchor="middle" fill="#ffffff" font-family="monospace" font-size="14" font-weight="bold">ICS VM</text>
+  <text x="325" y="155" text-anchor="middle" fill="#ffffff" font-family="monospace" font-size="12">(Ubuntu Server)</text>
+  <text x="325" y="175" text-anchor="middle" fill="#ffffff" font-family="monospace" font-size="10">• OpenPLC</text>
+  <text x="325" y="190" text-anchor="middle" fill="#ffffff" font-family="monospace" font-size="10">• ModbusPal</text>
+  <text x="325" y="205" text-anchor="middle" fill="#ffffff" font-family="monospace" font-size="10">• Water Plant</text>
+  <text x="325" y="220" text-anchor="middle" fill="#ffffff" font-family="monospace" font-size="10">• Real Modbus</text>
+  <text x="325" y="240" text-anchor="middle" fill="#ffffff" font-family="monospace" font-size="10">• SCADA Interface</text>
+  
+  <!-- Monitoring VM -->
+  <rect x="420" y="120" width="150" height="120" fill="#7c3aed" stroke="#ffffff" stroke-width="2" rx="8"/>
+  <text x="495" y="140" text-anchor="middle" fill="#ffffff" font-family="monospace" font-size="14" font-weight="bold">MONITORING VM</text>
+  <text x="495" y="155" text-anchor="middle" fill="#ffffff" font-family="monospace" font-size="12">(Your Defense)</text>
+  <text x="495" y="175" text-anchor="middle" fill="#ffffff" font-family="monospace" font-size="10">• ML Detection</text>
+  <text x="495" y="190" text-anchor="middle" fill="#ffffff" font-family="monospace" font-size="10">• Auto Response</text>
+  <text x="495" y="205" text-anchor="middle" fill="#ffffff" font-family="monospace" font-size="10">• Alert System</text>
+  <text x="495" y="220" text-anchor="middle" fill="#ffffff" font-family="monospace" font-size="10">• ELK Stack</text>
+  <text x="495" y="240" text-anchor="middle" fill="#ffffff" font-family="monospace" font-size="10">• Anomaly Detection</text>
+  
+  <!-- Display VM -->
+  <rect x="590" y="120" width="150" height="120" fill="#0891b2" stroke="#ffffff" stroke-width="2" rx="8"/>
+  <text x="665" y="140" text-anchor="middle" fill="#ffffff" font-family="monospace" font-size="14" font-weight="bold">DISPLAY VM</text>
+  <text x="665" y="155" text-anchor="middle" fill="#ffffff" font-family="monospace" font-size="12">(HMI)</text>
+  <text x="665" y="175" text-anchor="middle" fill="#ffffff" font-family="monospace" font-size="10">• Live Charts</text>
+  <text x="665" y="190" text-anchor="middle" fill="#ffffff" font-family="monospace" font-size="10">• Status Dashboard</text>
+  <text x="665" y="205" text-anchor="middle" fill="#ffffff" font-family="monospace" font-size="10">• Real-time Alerts</text>
+  <text x="665" y="220" text-anchor="middle" fill="#ffffff" font-family="monospace" font-size="10">• SCADA Interface</text>
+  <text x="665" y="240" text-anchor="middle" fill="#ffffff" font-family="monospace" font-size="10">• React Frontend</text>
+  
+  <!-- Connection Lines -->
+  <line x1="155" y1="240" x2="155" y2="320" stroke="#ffffff" stroke-width="2"/>
+  <line x1="325" y1="240" x2="325" y2="320" stroke="#ffffff" stroke-width="2"/>
+  <line x1="495" y1="240" x2="495" y2="320" stroke="#ffffff" stroke-width="2"/>
+  <line x1="665" y1="240" x2="665" y2="320" stroke="#ffffff" stroke-width="2"/>
+  
+  <!-- Virtual Network -->
+  <rect x="80" y="320" width="640" height="60" fill="#1f2937" stroke="#3b82f6" stroke-width="2" rx="8"/>
+  <text x="400" y="350" text-anchor="middle" fill="#3b82f6" font-family="monospace" font-size="16" font-weight="bold">
+    VIRTUAL NETWORK (192.168.100.0/24)
+  </text>
+  
+  <!-- Judge View -->
+  <rect x="150" y="420" width="500" height="80" fill="#374151" stroke="#10b981" stroke-width="2" rx="8"/>
+  <text x="400" y="450" text-anchor="middle" fill="#10b981" font-family="monospace" font-size="14" font-weight="bold">
+    [JUDGE VIEW: Live water treatment plant + attacks + autonomous defense]
+  </text>
+  <text x="400" y="470" text-anchor="middle" fill="#10b981" font-family="monospace" font-size="12">
+    Real-time demonstration of ICS cybersecurity in action
+  </text>
+  
+  <!-- Performance Metrics -->
+  <rect x="80" y="520" width="640" height="60" fill="#1e293b" stroke="#f59e0b" stroke-width="2" rx="8"/>
+  <text x="400" y="540" text-anchor="middle" fill="#f59e0b" font-family="monospace" font-size="14" font-weight="bold">
+    Performance: 92.42% Accuracy • &lt;500ms Detection • Real-time Response
+  </text>
+  <text x="400" y="560" text-anchor="middle" fill="#f59e0b" font-family="monospace" font-size="12">
+    AI-powered anomaly detection with autonomous threat response
+  </text>
+</svg>
