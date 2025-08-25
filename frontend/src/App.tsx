@@ -11,6 +11,7 @@ import About from "./pages/About";
 import Projects from "./pages/Projects";
 import Blog from "./pages/Blog";
 import HackSkyICS from "./pages/HackSkyICS";
+import Resume from "./pages/Resume";
 
 import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
@@ -32,6 +33,7 @@ const App = () => (
               <Route path="/projects" element={<Projects />} />
               <Route path="/blog" element={<Blog />} />
               <Route path="/blog/hackskyics" element={<HackSkyICS />} />
+              <Route path="/resume" element={<Resume />} />
 
               <Route path="/contact" element={<Contact />} />
               <Route path="*" element={<NotFound />} />
